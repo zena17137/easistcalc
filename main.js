@@ -14,7 +14,7 @@ function clickButton(e) {
 		screen.textContent = eval(acc);
 	} else {
 		calculation.push(value);
-		acc.join('');
+		acc = calculation.join('');
 		screen.textContent = acc;
 	}
 }
